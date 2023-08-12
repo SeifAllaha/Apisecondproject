@@ -1,0 +1,48 @@
+{
+  "studnet": [
+    {
+      "Name": "seif allah ",
+      "Age": 18,
+      "Level": 2,
+      "GPA": 2.5,
+      "id": 1
+    },
+    {
+      "Name": "mohmed mohmed",
+      "Age": 19,
+      "Level": 3,
+      "GPA": 3,
+      "id": 2
+    }
+  ],
+  "doctor": [
+    {
+      "id": 1,
+      "Name": "ahmed",
+      "Cource": " full stack"
+    },
+    {
+      "Name": "shsjhadhjpfdjh",
+      "Cource": "pogdfhs[idfogja",
+      "id": 2
+    }
+  ],
+  "cources": [
+    {
+      "id": 1,
+      "NameCource": "ahmed",
+      "DocterName": "Ahmed"
+    },
+    {
+      "NameCource": "bsdfsdgn",
+      "DocterName": "vnfnsgsgrn",
+      "id": 2
+    }
+  ],
+  "department": [
+    {
+      "id": 1,
+      "NameDepartment": "markting"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+
+<div class="container col-8 mt-5">
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Cource</th>
+        <th scope="col">Action</th>
+
+
+
+      </tr>
+    </thead>
+
+    <tbody >
+      <tr *ngFor="let item of Doctor">
+        <td> {{ item['id']}}</td>
+        <td>{{ item['Name'] }}</td>
+        <td>{{ item['Cource'] }}</td>
+
+       <td>
+        <i class="fa-regular fa-trash-can text-danger mr-5" (click)="delete(item['id'] )"></i>
+       <a href="/doctor/edit/{{ item['id'] }}"> <i class="fa-regular fa-pen-to-square text-info"></i></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

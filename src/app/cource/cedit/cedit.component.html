@@ -1,0 +1,15 @@
+<p>cedit works!</p>
+<div class="container col-6 mt-5">
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">NameCource</label>
+      <input type="text" class="form-control" placeholder="Enter Your Name" [(ngModel)]="cource.NameCource" name="NameCource">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">DocterName</label>
+      <input type="text" class="form-control" placeholder="Enter Your Course" [(ngModel)]="cource.DocterName" name="DocterName">
+    </div>
+
+    <button type="submit" class="btn btn-primary"  (click)="update()">Submit</button>
+  </form>
+</div>
